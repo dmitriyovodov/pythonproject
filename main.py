@@ -5,7 +5,7 @@ import datetime
 from threading import Thread
 from fnmatch import fnmatch
 
-bot = telebot.TeleBot("6365578168:AAHgm1qmzqWB6Ed-Xou9UvAt6XYBAB9P4mo")
+bot = telebot.TeleBot(open("token.txt").readline())
 task_name = ""
 task = ""
 user_name = ""
